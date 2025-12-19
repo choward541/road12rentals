@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Road 12 Rentals | Equipment Rentals Delivered</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>ROAD 12 RENTALS</h1>
+  <nav>
+    <a href="equipment.html">Equipment</a>
+    <a href="book.html">Book</a>
+  </nav>
+</header>
+
+<section>
+  <div class="card">
+    <h2>Equipment Rentals — Delivered</h2>
+    <p>
+      Book professional-grade equipment online.  
+      Transparent pricing. Delivery included. No rental counter.
+    </p>
+    <a class="cta" href="equipment.html">View Equipment</a>
+  </div>
+</section>
+
+<section>
+  <h2>Our Equipment</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Wood Chipper (7")</h3>
+      <span class="badge available">Available</span>
+      <p>Brush, limbs, and storm cleanup.</p>
+      <a class="cta" href="equipment.html#chipper">View</a>
+    </div>
+
+    <div class="card">
+      <h3>Mini Excavator</h3>
+      <span class="badge unavailable">Coming Soon</span>
+      <p>Trenching, grading, site work.</p>
+    </div>
+
+    <div class="card">
+      <h3>Plate Compactor</h3>
+      <span class="badge unavailable">Coming Soon</span>
+      <p>Base prep and compaction.</p>
+    </div>
+
+    <div class="card">
+      <h3>Towable Lift</h3>
+      <span class="badge unavailable">Coming Soon</span>
+      <p>Elevated access.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2025 Road 12 Rentals
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Equipment | Road 12 Rentals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>ROAD 12 RENTALS</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="equipment.html">Equipment</a>
+  </nav>
+</header>
+
+<section>
+  <div class="card">
+    <h2>Request a Rental</h2>
+
+    <form>
+      <label>Equipment</label><br>
+      <select>
+        <option>Wood Chipper (Available)</option>
+        <option disabled>Mini Excavator (Coming Soon)</option>
+      </select><br><br>
+
+      <label>Rental Dates</label><br>
+      <input type="text" placeholder="Select dates"><br><br>
+
+      <label>Delivery Address</label><br>
+      <input type="text" placeholder="Jobsite address"><br><br>
+
+      <label>Email</label><br>
+      <input type="email"><br><br>
+
+      <button class="cta" type="submit">Submit Request</button>
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  © 2025 Road 12 Rentals
+</footer>
+
+</body>
+</html>
